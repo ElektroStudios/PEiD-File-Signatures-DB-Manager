@@ -8,27 +8,23 @@ Simple program to manage the signatures database of **PeId** application, and re
 
 ![](Preview/PEiD%20UserDB%20Manager%2001.png)
 
-# Change Log
+# **Donations**
 
-Version 1.2
+##### Through Paypal:
+If you like my work and want to support it, then please consider to deposit a donation through **Paypal** by clicking on the next button:
 
-	[+] Added
-		· TextBox's Drag&Drop features.
-		· 'Append' Button.
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E4RQEV6YF5NZY" target="_blank">![](https://www.paypalobjects.com/en_US/ES/i/btn/btn_donateCC_LG.gif)</a>
 
-	[+] Fixed
-		· Text encoding issue after saving the UserDB.txt caused PEiD to miss-recognize the file.
-		· A miss-type on the signature count timer caused unnecessary calls.
-		· Signature count was not properly updated after cleaning the database text area.
+You are free to specify whatever amount of money you wish. That money will be sent to my **Paypal** account.
 
-Version 1.1
+##### Through Envato:
+If you are a .NET programmer, then maybe you would like to consider the purchase of 
+'**DevCase for .NET Framework**', a powerful set of APIs for .NET developers, created by me. 
 
-	[+] Added
-		· Basic button functionalities:
-			· Open file.
-			· Save File.
-			· Clean text area.
+You can click the next button to go to the product specifications and the purchase page:
 
-	[+] Improved
-		· Editing performance (added a signature check timer).
-		· Control's Anchor.
+<a href="https://codecanyon.net/item/elektrokit-class-library-for-net/19260282" target="_blank">![DevCase for .NET Framework](Images/DevCase%20Banner.png)</a>
+
+Note that all the source-code within the namespace 'DevCase' included in this **GitHub** repository, was freely extracted and distributed from the commercial library '**DevCase for .NET Framework**'.
+
+<u>**Thanks in advance for your consideration!**</u> :thumbsup:
