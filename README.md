@@ -1,33 +1,45 @@
 # PEiD UserDB Manager
 
-![](Preview/PEiD%20UserDB%20Manager%20Icon.png)
+### Simple program to manage the signatures database of **PeId** application, and remove duplicated signatures.
 
-Simple program to manage the signatures database of **PeId** application, and remove duplicated signatures.
+[icon](/Images/PEiD%20UserDB%20Manager%20Icon.png)
 
-# Screenshots
+------------------
 
-![](Preview/PEiD%20UserDB%20Manager%2001.png)
+## 🖼️ Screenshots
 
-# **Donations**
+[screenshot](/Images/PEiD%20UserDB%20Manager%2001.png)
 
-##### Through Paypal:
-If you like my work and want to support it, then please consider to deposit a donation through **Paypal** by clicking on the next button:
+## 📝 Requirements
 
-[![Donation Account](Images/Paypal.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E4RQEV6YF5NZY)
+- Microsoft Windows OS.
+- [PEiD](https://www.aldeid.com/wiki/PEiD)
 
-[![Donation Amount](https://img.shields.io/badge/Current%20donations-0%24-red.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E4RQEV6YF5NZY)
+## ⚠️ Disclaimer:
 
-You are free to specify whatever amount of money you wish. That money will be sent to my **Paypal** account.
+This Work (the repository and the content provided in) is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the Work or the use or other dealings in the Work.
 
-##### Through Envato:
-If you are a .NET programmer, then maybe you would like to consider the purchase of 
-'**DevCase for .NET Framework**', a powerful set of APIs for .NET developers, created by me. 
+## 💪 Contributing
 
-You can click the next button to go to the product specifications and the purchase page:
+Your contribution is highly appreciated!. If you have any ideas, suggestions, or encounter issues, feel free to open an issue by clicking [here](https://github.com/ElektroStudios/PEiD-UserDB-Manager/issues/new/choose). 
 
-[![DevCase for .NET Framework](Images/DevCase%20Banner.png)](https://codecanyon.net/item/elektrokit-class-library-for-net/19260282)
+Your input helps make this Work better for everyone. Thank you for your support! 🚀
 
-Note that any source-code within the namespace 'DevCase' included in this **GitHub** repository, was freely extracted and distributed from the commercial library '**DevCase for .NET Framework**'.
+## 💰 Beyond Contribution 
 
-<u>**Thanks in advance for your consideration!**</u> :thumbsup:
+This work is distributed for educational purposes and without any profit motive. However, if you find value in my efforts and wish to support and motivate my ongoing work, you may consider contributing financially through the following options:
 
+ - ### Paypal:
+    You can donate any amount you like via **Paypal** by clicking on this button:
+
+    [![Donation Account](Images/Paypal_Donate.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E4RQEV6YF5NZY)
+
+ - ### Envato Market:
+   If you are a .NET developer, you may want to explore '**DevCase Class Library for .NET**', a huge set of APIs that I have on sale.
+   Almost all reusable code that you can find across my works is condensed, refined and provided through DevCase Class Library.
+
+    Check out the product:
+    
+   [![DevCase Class Library for .NET](Images/DevCase_Banner.png)](https://codecanyon.net/item/elektrokit-class-library-for-net/19260282)
+
+<u>**Your support means the world to me! Thank you for considering it!**</u> 👍

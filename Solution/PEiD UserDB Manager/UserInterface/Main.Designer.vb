@@ -192,7 +192,7 @@ Namespace UserInterface
             '
             'Button_Append
             '
-            Me.Button_Append.BackgroundImage = Global.PEiD_UserDB_Manager.My.Resources.Resources.Append
+            Me.Button_Append.BackgroundImage = My.Resources.Resources.Append
             Me.Button_Append.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
             Me.Button_Append.Location = New System.Drawing.Point(35, 19)
             Me.Button_Append.Name = "Button_Append"
@@ -202,7 +202,7 @@ Namespace UserInterface
             '
             'Button_Save
             '
-            Me.Button_Save.BackgroundImage = Global.PEiD_UserDB_Manager.My.Resources.Resources.save
+            Me.Button_Save.BackgroundImage = My.Resources.Resources.save
             Me.Button_Save.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
             Me.Button_Save.Enabled = False
             Me.Button_Save.Location = New System.Drawing.Point(93, 19)
@@ -213,7 +213,7 @@ Namespace UserInterface
             '
             'Button_OpenFile
             '
-            Me.Button_OpenFile.BackgroundImage = Global.PEiD_UserDB_Manager.My.Resources.Resources.OpenFile
+            Me.Button_OpenFile.BackgroundImage = My.Resources.Resources.OpenFile
             Me.Button_OpenFile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
             Me.Button_OpenFile.Location = New System.Drawing.Point(6, 19)
             Me.Button_OpenFile.Name = "Button_OpenFile"
@@ -224,7 +224,7 @@ Namespace UserInterface
             'Button_ClearDatabase
             '
             Me.Button_ClearDatabase.BackColor = System.Drawing.SystemColors.Window
-            Me.Button_ClearDatabase.BackgroundImage = Global.PEiD_UserDB_Manager.My.Resources.Resources.Clear
+            Me.Button_ClearDatabase.BackgroundImage = My.Resources.Resources.Clear
             Me.Button_ClearDatabase.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
             Me.Button_ClearDatabase.Enabled = False
             Me.Button_ClearDatabase.Location = New System.Drawing.Point(64, 19)

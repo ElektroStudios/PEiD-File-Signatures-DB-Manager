@@ -23,6 +23,8 @@ Imports PEiD_UserDB_Manager.Tools.UserDBTools
 Imports System.IO
 Imports System.Text
 Imports System.ComponentModel
+Imports Tools.UserDBTools
+Imports Tools
 
 #End Region
 
@@ -156,14 +158,10 @@ Namespace UserInterface
                 Dim filenames As IEnumerable(Of String) =
                     DirectCast(e.Data.GetData(DataFormats.FileDrop), IEnumerable(Of String))
 
-                If (From filename As String In filenames
-                    Where Not Path.GetExtension(filename).Equals(".txt", StringComparison.OrdinalIgnoreCase)).Any Then
-                    e.Effect = DragDropEffects.None
-
-                Else
-                    e.Effect = DragDropEffects.All
-
-                End If
+                e.Effect = If((From filename As String In filenames
+                               Where Not Path.GetExtension(filename).Equals(".txt", StringComparison.OrdinalIgnoreCase)).Any,
+                    DragDropEffects.None,
+                    DragDropEffects.All)
 
             End If
 
@@ -316,7 +314,7 @@ Namespace UserInterface
         Private Sub OpenFileDialog_AppendFiles_FileOk(sender As Object, e As CancelEventArgs) _
         Handles OpenFileDialog_AppendFiles.FileOk
 
-            Me.Appendfiles(DirectCast(sender, OpenFileDialog).FileNames)
+            Me.AppendFiles(DirectCast(sender, OpenFileDialog).FileNames)
 
         End Sub
 
@@ -433,7 +431,7 @@ Namespace UserInterface
         Public Sub BeginInvokeControl(Of T As Control)(ByVal control As T, ByVal action As Action(Of T))
 
             If control.InvokeRequired Then
-                control.BeginInvoke(New Action(Of T, Action(Of T))(AddressOf BeginInvokeControl),
+                control.BeginInvoke(New Action(Of T, Action(Of T))(AddressOf Me.BeginInvokeControl),
                                     New Object() {control, action})
 
             Else
