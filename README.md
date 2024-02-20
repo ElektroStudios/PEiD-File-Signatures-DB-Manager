@@ -1,6 +1,6 @@
 # PEiD UserDB Manager
 
-### Simple program to manage the signatures database of **PeId** application, and remove duplicated signatures.
+### Simple program to manage the signatures database of **PEiD** application, and remove duplicated signatures.
 
 ![icon](Images/PEiD%20UserDB%20Manager%20Icon.png)
 
