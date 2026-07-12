@@ -21,7 +21,7 @@ winforms
   
   <h1>PEiD UserDB Manager</h1>
 
-### Desktop application to manage the signatures database of **PEiD** application and remove duplicates.
+### Desktop application to manage the signatures database of **PEiD** and remove duplicates.
 
 </div>
 
